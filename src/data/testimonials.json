@@ -1,0 +1,23 @@
+[
+    {
+        "id": "t1",
+        "text": "No puedo imaginar mi vida sin mi peludo amigo de Pet Haven. El proceso de adopción fue fluido, y el apoyo del equipo fue increíble. ¡Altamente recomendado!",
+        "author": "Michael",
+        "avatarUrl": "https://picsum.photos/id/1011/60/60",
+        "rating": 5
+    },
+    {
+        "id": "t2",
+        "text": "Encontrar a mi nueva mejor amiga a través de este sitio fue una experiencia maravillosa. El equipo es muy dedicado y se asegura de que cada mascota encuentre el hogar perfecto.",
+        "author": "Laura",
+        "avatarUrl": "https://picsum.photos/id/1027/60/60",
+        "rating": 5
+    },
+    {
+        "id": "t3",
+        "text": "¡Mi familia y yo estamos muy contentos con la nueva adición! El proceso fue transparente y recibimos toda la información que necesitábamos. ¡Gracias!",
+        "author": "Carlos",
+        "avatarUrl": "https://picsum.photos/id/1025/60/60",
+        "rating": 4
+    }
+]
