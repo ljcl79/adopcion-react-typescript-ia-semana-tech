@@ -4,7 +4,6 @@ import testimonialsData from '../../data/testimonials.json';
 import type { Pet, Testimonial } from '../../types';
 import TestimonialsSection from '../../components/TestimonialSection/TestimonialSection';
 import PetCard from '../../components/PetCard/PetCard';
-import heroImage from '../../assets/retrato-de-grupo-de-adorables-cachorros.jpg';
 
 
 const Dashboard: React.FC = () => {
