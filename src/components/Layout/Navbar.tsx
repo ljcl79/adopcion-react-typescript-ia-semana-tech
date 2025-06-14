@@ -50,8 +50,8 @@ const Navbar: React.FC = () => {
                     ) : (
                         // Si el usuario no está logueado
                         <>
-                            <Link to="/login" className="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">Sign In</Link>
-                            <Link to="/register" className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Sign Up</Link>
+                            <Link to="/login" id="link_login" data-cy="link_login" className="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">Sign In</Link>
+                            <Link to="/register" id="link_register" data-cy="link_register" className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Sign Up</Link>
                         </>
                     )}
                 </div>
