@@ -76,6 +76,7 @@ const Register: React.FC = () => {
                     {error && <p className="text-red-500 text-xs italic mb-4 text-center">{error}</p>}
                     <div className="flex items-center justify-between">
                         <button
+                            id="register_btn"
                             type="submit"
                             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:shadow-outline w-full"
                         >

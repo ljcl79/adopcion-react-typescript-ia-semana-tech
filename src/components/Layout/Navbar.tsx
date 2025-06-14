@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
                     <li><Link to="/about-us" className="hover:text-blue-600">About Us</Link></li>
                     <li><Link to="/donate" className="hover:text-blue-600">Donate</Link></li>
                     {currentUser && (
-                        <li id="myprofile_link" data-cy="profile_link"><Link to="/profile" className="hover:text-blue-600">My Profile</Link></li>
+                        <li id="myprofile_link" data-cy="profile_link"><Link to="/profile" id="profile" data-cy="profile" className="hover:text-blue-600">My Profile</Link></li>
                     )}
                 </ul>
                 <div className="flex items-center space-x-4">
