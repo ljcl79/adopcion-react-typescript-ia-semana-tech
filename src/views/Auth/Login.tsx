@@ -61,6 +61,8 @@ const Login: React.FC = () => {
                     {error && <p className="text-red-500 text-xs italic mb-4 text-center">{error}</p>}
                     <div className="flex items-center justify-between">
                         <button
+                            id="login_btn"
+                            data-cy="login_btn"
                             type="submit"
                             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:shadow-outline w-full"
                         >
@@ -68,7 +70,10 @@ const Login: React.FC = () => {
                         </button>
                     </div>
                     <p className="text-center text-gray-600 text-sm mt-4">
-                        ¿No tienes una cuenta? <button type="button" onClick={() => navigate('/register')} className="text-blue-600 hover:underline">Regístrate aquí</button>
+                        ¿No tienes una cuenta? <button
+                            id="register_btn"
+                            data-cy="register_btn"
+                            type="button" onClick={() => navigate('/register')} className="text-blue-600 hover:underline">Regístrate aquí</button>
                     </p>
                 </form>
             </div>
