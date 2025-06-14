@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
         <nav className="bg-white shadow-md p-4">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="flex items-center space-x-2">
-                    <Link to="/" className="flex items-center space-x-2">
+                    <Link id="link_home" data-cy="link_home" to="/" className="flex items-center space-x-2">
                         <img src="https://cdn-icons-png.flaticon.com/512/194/194279.png" alt="Pet Haven Logo" className="h-10" />
                         <span className="text-2xl font-bold text-gray-800">Pet Haven</span>
                     </Link>

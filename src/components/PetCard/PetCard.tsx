@@ -19,6 +19,7 @@ const PetCard: React.FC<PetCardProps> = ({ pet }) => {
                 <p className="text-gray-600 mb-3">Ubicación: {pet.location}</p>
                 {/* ¡Cambiamos button por Link! */}
                 <Link
+                    id={`pet_${pet.id}`}
                     to={`/pets/${pet.id}`} // Navega a la ruta de detalle de esta mascota
                     className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition duration-200 flex justify-center items-center"
                 >
