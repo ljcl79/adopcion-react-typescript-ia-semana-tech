@@ -41,6 +41,8 @@ const Navbar: React.FC = () => {
                         <div className="flex items-center space-x-2">
                             <span className="text-gray-700 font-semibold hidden sm:inline">Hola, {currentUser.username}!</span>
                             <button
+                                id="btn_logout"
+                                data-cy="btn_logout"
                                 onClick={logout}
                                 className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600"
                             >
