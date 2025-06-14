@@ -4,6 +4,7 @@ import testimonialsData from '../../data/testimonials.json';
 import type { Pet, Testimonial } from '../../types';
 import TestimonialsSection from '../../components/TestimonialSection/TestimonialSection';
 import PetCard from '../../components/PetCard/PetCard';
+import heroImage from '../../assets/retrato-de-grupo-de-adorables-cachorros.jpg';
 
 
 const Dashboard: React.FC = () => {
@@ -27,7 +28,7 @@ const Dashboard: React.FC = () => {
                     <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
                         <div className="flex items-center justify-center md:justify-start mb-4">
                             <svg className="w-8 h-8 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_Google_2015.png" alt="Google Logo" className="h-6" />
+
                         </div>
                         <h1 className="text-5xl font-extrabold text-gray-900 leading-tight mb-6">
                             Transforma una Vida, <br /> Adopta un Mascota
@@ -53,11 +54,7 @@ const Dashboard: React.FC = () => {
                         </p>
                     </div>
                     <div className="md:w-1/2 flex justify-center md:justify-end relative">
-                        <img
-                            src="https://www.cutenessoverflow.com/wp-content/uploads/2023/11/french-bulldog-puppy-lying-on-rug.jpg"
-                            alt="Happy Dog"
-                            className="rounded-lg shadow-2xl max-w-full h-auto w-full md:max-w-md lg:max-w-lg object-cover"
-                        />
+
                         <TestimonialsSection testimonials={testimonials} />
                     </div>
                 </div>
